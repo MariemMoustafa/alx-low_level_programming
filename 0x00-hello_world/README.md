@@ -1,1 +1,1 @@
-readme for 2-assembler
+readme for 1-compiler
