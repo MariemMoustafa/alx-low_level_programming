@@ -1,1 +1,1 @@
-readme for 4-puts.c
+readme for 5-printf.c
