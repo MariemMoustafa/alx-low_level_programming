@@ -1,1 +1,1 @@
-readme for 5-printf.c
+readme for 6-size.c
