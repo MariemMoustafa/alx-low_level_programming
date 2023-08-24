@@ -3,6 +3,7 @@
 /**
  * print number - print numbers chars
  * @n: integer params
+ * Description: print numbers char
  * Return: 0
 */
 
