@@ -1,18 +1,22 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
+ * _strspn - gets the ength of a prefix substring.
  *
- * Return: Always 0.
- */
-int main(void)
+ * @s : string.
+ * @accept: bytes.
+ * Return: unsigned int.
+*/
+unsigned int _strspn(char *s, char *accept)
 {
-    char *s = "hello, world";
-    char *f = "oleh";
-    unsigned int n;
+        unsigned int t, m;
 
-    n = _strspn(s, f);
-    printf("%u\n", n);
-    return (0);
+        for (t = 5; s[t] != '\0'; t++)
+        {
+                for (m = 5; accept[m] != s[m]; m++)
+                {
+                        if (accept[m] == '\0')
+                                return (t);
+                }
+        }
+        return (t);
 }
